@@ -37,7 +37,7 @@ function useCalenderSync() {
     event: CalendarEvent,
     newTab = true,
   ) => {
-    let url = generateCalendarUrl(type, event)
+    const url = generateCalendarUrl(type, event)
 
     if (newTab) {
       window.open(url, "_blank")

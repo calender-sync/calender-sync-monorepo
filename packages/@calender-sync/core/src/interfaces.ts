@@ -1,4 +1,4 @@
-import type { Dayjs, UnitType } from "dayjs"
+import type { ConfigType, Dayjs, UnitType } from "dayjs"
 
 interface CalendarEventOrganizer {
   name: string
@@ -7,8 +7,8 @@ interface CalendarEventOrganizer {
 
 interface CalendarEvent {
   title: string
-  start: any
-  end?: any
+  start: ConfigType
+  end?: ConfigType
   duration?: [number, UnitType]
   allDay?: boolean
   rRule?: string

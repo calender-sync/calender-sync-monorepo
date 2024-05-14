@@ -1,14 +1,14 @@
 import type { CalenderType } from "@/lib/types"
 import {
-  apple,
-  google,
-  outlook,
-  outlookMobile,
-  yahoo,
-  type CalendarEvent,
-} from "@calsync/core"
+	apple,
+	google,
+	outlook,
+	outlookMobile,
+	yahoo,
+	type CalendarEvent,
+} from "@calender-sync/core"
 
-function useCalSync() {
+function useCalenderSync() {
   const addToCalendar = (type: CalenderType, event: CalendarEvent) => {
     let url = ""
 
@@ -37,4 +37,4 @@ function useCalSync() {
   }
 }
 
-export { useCalSync }
+export { useCalenderSync }

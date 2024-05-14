@@ -1,5 +1,5 @@
 {
-  "name": "@calsync/core",
+  "name": "@calender-sync/core",
   "version": "0.0.0",
   "type": "module",
   "main": "dist/index.js",
@@ -21,7 +21,7 @@
     "lint:fix": "eslint \"**/*.{js,jsx,ts,tsx}\" --max-warnings 0 --fix"
   },
   "keywords": [
-    "calsync",
+    "calender-sync",
     "core"
   ],
   "private": false,
@@ -31,7 +31,7 @@
   "license": "MIT",
   "author": {
     "name": "Rahul SriRam",
-    "email": "hi@rahulsriram.dev",
+    "email": "calender-sync@rahulsriram.dev",
     "url": "https://rahulsriram.dev"
   },
   "devDependencies": {

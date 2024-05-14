@@ -1,5 +1,5 @@
 {
-  "name": "calsync-workspace-root",
+  "name": "calender-sync-monorepo",
   "version": "0.0.1",
   "description": "",
   "scripts": {
@@ -29,7 +29,7 @@
   "keywords": [],
   "author": {
     "name": "Rahul SriRam",
-    "email": "hi@rahulsriram.dev",
+    "email": "calender-sync@rahulsriram.dev",
     "url": "https://rahulsriram.dev"
   },
   "license": "MIT",

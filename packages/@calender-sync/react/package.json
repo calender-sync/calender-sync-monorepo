@@ -1,12 +1,12 @@
 {
-  "name": "@calsync/react",
+  "name": "@calender-sync/react",
   "private": false,
   "publishConfig": {
     "access": "public"
   },
   "author": {
     "name": "Rahul SriRam",
-    "email": "hi@rahulsriram.dev",
+    "email": "calender-sync@rahulsriram.dev",
     "url": "https://rahulsriram.dev"
   },
   "license": "MIT",
@@ -33,7 +33,7 @@
     "build-storybook": "storybook build"
   },
   "keywords": [
-    "calsync",
+    "calender-sync",
     "react",
     "tailwindcss",
     "vite",
@@ -83,6 +83,6 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.3.0",
-    "@calsync/core": "workspace:*"
+    "@calender-sync/core": "workspace:*"
   }
 }

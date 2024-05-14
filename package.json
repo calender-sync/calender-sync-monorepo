@@ -10,9 +10,7 @@
     "storybook": "turbo run storybook",
     "build": "turbo run build",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
-    "test": "turbo run test",
-    "bump": "node ./scripts/bump.cjs",
-    "release": "node ./scripts/release.cjs"
+    "test": "turbo run test"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
@@ -38,8 +36,5 @@
   "private": true,
   "publishConfig": {
     "access": "restricted"
-  },
-  "dependencies": {
-    "@actions/exec": "^1.1.1"
   }
 }

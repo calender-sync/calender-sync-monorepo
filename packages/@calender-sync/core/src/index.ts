@@ -4,6 +4,7 @@ import qs from "query-string"
 import type {
   CalendarEvent,
   CalendarEventOrganizer,
+  CalenderType,
   Google,
   NormalizedCalendarEvent,
   Outlook,
@@ -229,4 +230,5 @@ export {
   outlookMobile,
   yahoo,
   type CalendarEvent,
+  type CalenderType,
 }

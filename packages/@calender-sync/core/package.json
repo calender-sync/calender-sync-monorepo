@@ -35,7 +35,7 @@
     "url": "https://rahulsriram.dev"
   },
   "devDependencies": {
-    "@types/node": "^20.11.0",
+    "@types/node": "^20.12.12",
     "eslint": "^8.57.0",
     "eslint-config-custom": "workspace:*",
     "tsconfig": "workspace:*",

@@ -60,9 +60,12 @@ interface Yahoo extends Record<string, string | boolean | number | undefined> {
   in_loc?: string
 }
 
+type CalenderType = "google" | "apple" | "yahoo" | "outlook"
+
 export type {
   CalendarEvent,
   CalendarEventOrganizer,
+  CalenderType,
   Google,
   NormalizedCalendarEvent,
   Outlook,

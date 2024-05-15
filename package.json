@@ -1,5 +1,5 @@
 {
-  "name": "calender-sync-monorepo",
+  "name": "calendar-sync-monorepo",
   "version": "0.0.1",
   "description": "",
   "scripts": {
@@ -30,7 +30,7 @@
   "keywords": [],
   "author": {
     "name": "Rahul SriRam",
-    "email": "calender-sync@rahulsriram.dev",
+    "email": "calendar-sync@rahulsriram.dev",
     "url": "https://rahulsriram.dev"
   },
   "license": "MIT",

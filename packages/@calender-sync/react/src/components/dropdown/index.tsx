@@ -8,10 +8,6 @@ import {
   type CalSyncDropdownContentProps,
 } from "./content"
 import {
-  CalendarSyncDropdownContext,
-  type CalendarSyncDropdownProps,
-} from "./context"
-import {
   CalSyncDropdownGoogleButton,
   type CalSyncDropdownGoogleButtonProps,
 } from "./google"
@@ -29,21 +25,8 @@ import {
   type CalSyncDropdownYahooButtonProps,
 } from "./yahoo"
 
-function CalSyncDropdown({
-  children,
-  event,
-  newTab = true,
-}: React.PropsWithChildren<CalendarSyncDropdownProps>) {
-  return (
-    <CalendarSyncDropdownContext.Provider
-      value={{
-        event,
-        newTab,
-      }}
-    >
-      {children}
-    </CalendarSyncDropdownContext.Provider>
-  )
+function CalSyncDropdown({ children }: React.PropsWithChildren) {
+  return children
 }
 
 CalSyncDropdown.displayName = "CalSyncDropdown.Root"
